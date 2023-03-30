@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+}
+
+.navbar{
+    background: linear-gradient(to right, rgb(254, 224, 167,.90),rgba(135, 249, 152, 0.9));
+    padding: 20px;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+}
+body{
+  background-color: rgb(216, 209, 182) ;
+  font-family: 'Lobster', cursive;
+
+}
+.input-contents{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 2vh 0 0 4vh;
+    padding: 20px;
+    border: 2px solid rgb(250, 234, 170) ;
+    border-radius: 5%;
+    background-color: rgb(170, 237, 237);
+    box-shadow: 5px 5px 0 0;
+}
+textarea{
+    margin-top: 10px;
+    font-family: 'Lobster', cursive;
+    border: none;
+}
+input{
+    font-family: 'Lobster', cursive;
+    border: none;
+}
+button{
+    font-family: 'Lobster', cursive;
+    border-radius: 5%;
+    width: 30%;
+    background-color: burlywood;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.desc{
+    margin-left: 30px;
+}
+.contents{
+display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: aliceblue;
+    width: 200px;
+    height: auto;
+ 
+   
+   
+   
+}
